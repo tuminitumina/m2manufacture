@@ -1,0 +1,22 @@
+{
+    "name": "ivanfabrynugraha/module-manufacture",
+    "description": "",
+    "type": "",
+    "license": "",
+    "authors": [
+        {
+            "email": "ivanfabrynugraha@gmail.com",
+            "name": "Ivan Febriansyah Hadi Nugraha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ivanfabrynugraha\\Manufacture\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

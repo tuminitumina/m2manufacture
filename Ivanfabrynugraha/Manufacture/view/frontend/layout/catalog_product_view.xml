@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+		<container name="manufacture" as="manufacture" before="-">
+			<block class="Magento\Catalog\Block\Product\View" name="product.info.manufacture" template="product/view/attribute.phtml" before="-">
+		        <arguments>
+		            <argument name="at_call" xsi:type="string">getManufacture</argument>
+		            <argument name="at_code" xsi:type="string">manufacture</argument>
+		            <argument name="css_class" xsi:type="string">manufacture</argument>
+		            <argument name="at_label" xsi:type="string">none</argument>
+		            <argument name="add_attribute" xsi:type="string">itemprop="manufacture"</argument>
+		            <argument name="at_type" xsi:type="string">text</argument>
+		        </arguments>
+		    </block>
+		</container>		
+    </body>
+</page>

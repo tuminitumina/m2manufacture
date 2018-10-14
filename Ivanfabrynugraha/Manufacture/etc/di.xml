@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+   <type name="Magento\Checkout\CustomerData\AbstractItem">
+        <plugin name="manufacture-mini-cart" type="Ivanfabrynugraha\Manufacture\Plugin\DefaultItem" disabled="false" sortOrder="10"/>
+    </type>
+    <type name="Magento\Checkout\Model\DefaultConfigProvider">
+        <plugin name="manufacture-summary-checkout" type="Ivanfabrynugraha\Manufacture\Plugin\Checkout\Model\DefaultConfigProviderPlugin" />
+    </type>
+</config>
